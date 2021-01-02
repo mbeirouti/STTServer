@@ -1,0 +1,19 @@
+{
+    "env": {
+      "myDefaultIncludePath": ["/usr/lib/jvm/java-11-openjdk-amd64/include", "${workspaceFolder}/src/main/cpp"],
+      "myCompilerPath": "/usr/bin/gcc"
+    },
+    "configurations": [
+      {
+        "name": "Linux",
+        "intelliSenseMode": "gcc-x64",
+        "includePath": ["${myDefaultIncludePath}"],
+        "compilerPath": "/usr/bin/cpp",
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+      }
+    ],
+    "version": 4
+}
+  
+  

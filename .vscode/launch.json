@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch NativeInterface",
+            "request": "launch",
+            "mainClass": "com.NativeInterface.NativeInterface",
+            "projectName": "server",
+            "args": ["-Djava.library.path", "/home/matthew/Documents/server/src/main/cpp/deepspeech/"]
+        },
+        {
+            "type": "java",
+            "name": "Launch ServerApplication",
+            "request": "launch",
+            "mainClass": "com.splerver.server.ServerApplication",
+            "projectName": "server"
+        },
+        {
+            "type": "cppdbg",
+            "includePath": ["/usr/lib/jvm/java-11-openjdk-amd64/include"]
+
+        }
+    ]
+
+}
