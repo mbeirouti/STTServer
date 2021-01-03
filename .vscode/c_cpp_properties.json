@@ -1,6 +1,6 @@
 {
     "env": {
-      "myDefaultIncludePath": ["/usr/lib/jvm/java-11-openjdk-amd64/include", "${workspaceFolder}/src/main/cpp"],
+      "myDefaultIncludePath": ["${JAVA_HOME}/include", "${JAVA_HOME}/include/linux", "${workspaceFolder}/src/main/cpp"],
       "myCompilerPath": "/usr/bin/gcc"
     },
     "configurations": [
