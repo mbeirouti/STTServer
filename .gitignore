@@ -35,3 +35,4 @@ out/
 
 ### Project Specific Things ###
 libds_wrapper.so
+DeepSpeechCaller.class
