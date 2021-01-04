@@ -10,9 +10,9 @@ extern "C" {
 /*
  * Class:     DeepSpeechCaller
  * Method:    DS_Version
- * Signature: ()V
+ * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT void JNICALL Java_DeepSpeechCaller_DS_1Version
+JNIEXPORT jstring JNICALL Java_DeepSpeechCaller_DS_1Version
   (JNIEnv *, jclass);
 
 #ifdef __cplusplus

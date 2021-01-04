@@ -7,7 +7,7 @@ JAVA_WRAPPER_NAME = $(JAVA_WRAPPER_CLASS).java
 JAVA_WRAPPER_PATH = $(JAVA_ROOT)/com/DeepSpeechCaller
 
 # C Wrapper for the DeepSpeech shared library provided by Mozilla
-C_WRAPPER_NAME = DeepSpeechCaller.c 
+C_WRAPPER_NAME = DeepSpeechCaller.cpp
 C_WRAPPER_PATH = $(C_ROOT)/ds_wrapper
 C_WRAPPER_LIB_NAME = libds_wrapper
 C_WRAPPER_LIB_OUT_FILE_NAME = $(C_WRAPPER_LIB_NAME).so

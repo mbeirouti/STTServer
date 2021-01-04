@@ -6,9 +6,10 @@ public class DeepSpeechCaller {
       System.load(ds_wrapper.getAbsolutePath());
    }
 
-   private static native void DS_Version();
+   private static native String DS_Version();
 
    public static void main(String[] args) {
-      new DeepSpeechCaller().DS_Version();
+      String version = new DeepSpeechCaller().DS_Version();
+      System.out.println("You are using DeepSpeech version " + version);
    }
 }

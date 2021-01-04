@@ -1,6 +1,6 @@
 {
     "env": {
-      "myDefaultIncludePath": ["${JAVA_HOME}/include", "${JAVA_HOME}/include/linux", "${workspaceFolder}/src/main/cpp"],
+      "myDefaultIncludePath": ["${JAVA_HOME}/include", "${JAVA_HOME}/include/linux", "${workspaceFolder}/src/main/cpp/deepspeech"],
       "myCompilerPath": "/usr/bin/gcc"
     },
     "configurations": [
